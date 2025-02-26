@@ -1,4 +1,7 @@
-# Criando o Diagrama de Estrutura Composta UML para o Comparador de Preços
+# Reimportando as bibliotecas e recriando o Diagrama de Estrutura Composta UML
+from graphviz import Digraph
+
+# Criando o Diagrama de Estrutura Composta para o Comparador de Preços
 structure_diagram = Digraph(comment='Diagrama de Estrutura Composta - Comparador de Preços', format='png')
 structure_diagram.attr(rankdir='TB', fontsize='10')
 structure_diagram.attr('node', shape='record', style='filled', fontname='Arial')
