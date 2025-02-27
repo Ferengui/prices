@@ -29,6 +29,6 @@ activity_diagram.edge('processarDados', 'exibirResultados')
 activity_diagram.edge('exibirResultados', 'fim')
 
 # Renderizando o diagrama de atividade
-activity_diagram_filepath = '/mnt/data/diagrama_atividade_comparador_precos'
+activity_diagram_filepath = 'activity_diagram.render('diagrams/generated/diagrama_atividade')'
 activity_diagram.render(activity_diagram_filepath, view=False)
 activity_diagram_filepath + '.png'
